@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor da Minha Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3287/3287041.png">
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Amor da Minha Vida Julinha</h1>
+    </header>
+
+    <section class="moments">
+        <div class="moment">
+            <img src="fotos/foto2.jpg" alt="Momento Especial 1">
+            <p>Uma das nossas primeiras fotos juntos, quem diria que ali começaria uma história tão linda? Dois anos depois, aqui estamos, mais apaixonados do que nunca. Nunca imaginamos que chegaríamos tão longe, mas cada dia ao seu lado só me faz acreditar mais no nosso amor. Mal posso esperar pelo que ainda está por vir, sempre com você ao meu lado.</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto8.jpg" alt="Momento Especial 2">
+            <p> Eu me lembro quando a gente saiu combinando de moletom rosa foi tao legal, sinto falta disso, sabe para mim esses detalhes pequenos e especiais são só uma parte do que torna nossos momentos juntos tão únicos e incríveis. Cada dia ao seu lado é uma nova alegria, e é maravilhoso ver como nossas vidas se entrelaçam de formas tão fofas. </p>
+        </div>
+        <div class="moment">
+            <video controls autoplay loop>
+                <source src="fotos/video1.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            <p>Eu me lembro perfeitamente do momento em que te pedi em namoro. Foi um instante mágico, cheio de nervosismo e esperança. Olhar para trás e ver como tudo começou me faz perceber o quanto você significa para mim. E por sinal o video que passa todos os dias na minha telinha do computador</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto10.jpg" alt="Momento Especial 2">
+            <p>Esses momentos e pequenos detalhes são só uma parte do que torna nosso tempo juntos tão especial. Cada dia ao seu lado é uma nova alegria, e é maravilhoso ver como nossas vidas se encaixam de maneiras tão lindas.</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto17.jpg" alt="Momento Especial 2">
+            <p> Essa foto é tipo a música 'Mulher de Fases' do Raimundos, com a parte 'meu filho aguenta, quem mandou você gostar.' É engraçado como a gente acaba passando por várias fases juntos, e cada uma delas só fortalece o que sentimos um pelo outro.</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto18.jpg" alt="Momento Especial 2">
+            <p> Lembro com carinho do dia em que você apresentou seu TCC. Sua empolgação e dedicação estavam evidentes, e foi impossível não sentir uma onda de orgulho e felicidade. Ver você brilhar com o trabalho que tanto se dedicou foi um dos momentos mais especiais para mim. Estava lá, ao seu lado, torcendo e compartilhando cada conquista sua, e não poderia estar mais feliz por você.</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto22.jpg" alt="Momento Especial 2">
+            <p>A formatura da minha namorada foi um momento mágico e inesquecível para mim. Ver o brilho nos olhos dela ao receber seu diploma me encheu de uma alegria imensa. Ela trabalhou arduamente e conquistou essa vitória com muito esforço e dedicação. Estar ao lado dela, celebrando essa conquista, foi um dos maiores prazeres da minha vida. Estou tão orgulhoso de tudo o que ela conquistou e ansioso para ver o que o futuro reserva para ela!</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto21.jpg" alt="Momento Especial 2">
+            <p> A nossa festinha universitária sempre foi um dos momentos que mais gostamos. A energia contagiante, a alegria de estar com amigos e a chance de celebrar as conquistas juntos tornam essas festas realmente especiais. É sempre incrível ver como esses momentos nos aproximam e criam memórias inesquecíveis. Sinto falta</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto15.jpg" alt="Momento Especial 2">
+            <p> O casamento da nossa amiga foi simplesmente encantador. Ver a felicidade dela e do seu parceiro, celebrando o amor e a união de uma forma tão especial, foi emocionante. Cada detalhe da cerimônia e da festa refletiu a alegria e o carinho que eles têm um pelo outro. Foi um privilégio compartilhar esse dia inesquecível e testemunhar o início de uma nova etapa na vida deles. A alegria e o amor estavam no ar, e cada momento foi cheio de magia e celebração.</p>
+        </div>
+        <div class="moment">
+            <img src="fotos/foto5.jpg" alt="Momento Especial 2">
+            <p>A Copa Inter Atléticas (Cia) sempre foi uma ótima oportunidade para curtirmos juntos. Aproveitamos as festas e a energia do evento foi sempre uma diversão. As celebrações, a música e a companhia dos amigos tornaram cada edição da Cia uma experiência memorável. Esses momentos de diversão e descontração são sempre uma excelente forma de criar boas lembranças e reforçar amizades.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Nossos Momentos Juntos</h2>
+        <div class="gallery-item">
+            <img src="fotos/foto1.jpg" alt="Momento 3" onclick="openLightbox();currentSlide(1)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto3.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto4.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto12.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto6.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto7.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto9.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto11.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto12.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto13.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto14.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto16.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto19.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+        <div class="gallery-item">
+            <img src="fotos/foto20.jpg" alt="Momento 4" onclick="openLightbox();currentSlide(2)">
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img src="fotos/foto3.jpg" class="lightbox-slide">
+            <img src="fotos/foto4.jpg" class="lightbox-slide">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <section class="timeline">
+        <h2>Nossa História</h2>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <h3>Abril 2022</h3>
+                <p>Nos conhecemos e ate tiramos a primeira foto sem ser casal juntos. E teve ate nosso beijo</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Maio 2022</h3>
+                <p>Começamos a sair muito juntos com o grupo de amigos das embriagatas, fomos para muitas  festas e continuamos ficando</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Junho 2022</h3>
+                <p>Saimos MUITOO, sempre com o combinado de ir embora junto, era muito bom dormi contigo todo fim de semana que saudades.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Julho 2022</h3>
+                <p>A gente tava praticamente namorando so faltava, o pedido ate que fim desse mes eu pedi rsrs</p>
+            </div>
+            <div class="timeline-item">
+                <h3>A GENTE VIVEU DEMAIS SE LOKO</h3>
+                <p>Eu vou acabar a lista aqui pq E muita coisa e a gente viveu demais amor, e mesmo passando dificuldade com a distante a gente luta com isso para a gente se matar de pe e firme junto, eu te amo viu!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="poems">
+        <h2>Poemas para meu Amor</h2>
+        <div class="poem">
+            <p>No silente luar, teu olhar me acalma,<br>
+               Em teus braços, encontro a minha paz,<br>
+               Teu beijo é a melodia que embala<br>
+               Meu coração, que só a ti faz.</p>
+        
+            <p>Cada dia contigo é um sonho,<br>
+               Onde o tempo se desfaz,<br>
+               Teu amor é o único rumo<br>
+               Que meu ser sempre quis mais.</p>
+        </div>
+        
+        <div class="poem">
+            <p>Teu amor é a luz do meu amanhecer,<br>
+                O sol que ilumina o meu viver,<br>
+                Teu sorriso é o farol que me guia,<br>
+                A cada passo, a cada dia.</p>
+        
+            <p>Sem ti, o mundo seria um vazio,<br>
+                Mas contigo, tudo tem cor e brilho,<br>
+                Teu carinho é a essência do meu ser,<br>
+                E em teus braços, eu sempre quero estar, meu bem querer.</p>
+        </div>
+        
+    </section>
+
+    <section class="testimonials">
+        <h2>Depoimentos</h2>
+        <div class="testimonial">
+            <p>"Vocês formam um casal muito lindo juntos, posso afirmar que o mateus vira uma pessoa muito mais alegre quando a julia está por perto. Tenho a impressão de que se apoiam muito em qualquer questão, tanto quanto emocional, tanto quanto acadêmica."</p>
+            <p>- Rafinha</p>
+        </div>
+        <div class="testimonial">
+            <p>"Sai com voces so uma vez, mas senti que a sintonia de voces batem muito, e que voce mateus e mais tranquilo, e que a Julia e muito parceira e seis combina demais"</p>
+            <p>- Ian</p>
+        </div>
+        <div class="testimonial">
+            <p>"Julia Maria, eu gosto muito de voce, e voce a minha nora favorita, estou com muita saudades de voce"</p>
+            <p>- Dona Mara</p>
+        </div>
+    </section>
+
+    <section class="countdown">
+        <h2>A gente vai se ver</h2>
+        <div id="countdown-timer"></div>
+    </section>
+
+    <section class="map">
+        <h2>Nossos Lugares Especiais</h2>
+        <div id="map"></div>
+    </section>
+
+    <audio id="background-music" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+    <button class="button" onclick="toggleMusic()">Play/Pause Música</button>
+    <footer>
+        <p>Feito com amor por Mateus</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
