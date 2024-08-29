@@ -1,9 +1,9 @@
 function toggleMusic() {
-    var music = document.getElementById('background-music');
-    if (music.paused) {
-        music.play();
+    var audio = document.getElementById('background-music');
+    if (audio.paused) {
+        audio.play();
     } else {
-        music.pause();
+        audio.pause();
     }
 }
 
